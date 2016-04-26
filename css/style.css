@@ -108,6 +108,11 @@ a {
 a:hover, a:focus {
   text-decoration: none;
 }
+header{
+  height:100vh;
+  background: url(http://www.webgeartest.com/carna/carna_portfolio/images/hero-img/slide1.jpg), transparent linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.45) 100%) no-repeat scroll 0% 0%;
+  background-size: cover;
+}
 
 @media (max-width: 767px) {
   .big-title {
